@@ -1,0 +1,10 @@
+.input {
+  padding: 0.5rem 1rem;
+  flex: 1;
+  margin: 0.6rem 0.7rem;
+  border-radius: 5px;
+  border: 1px solid silver;
+  overflow: hidden;
+  min-width: 200px;
+  outline: silver;
+}

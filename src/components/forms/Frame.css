@@ -1,0 +1,15 @@
+.frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  box-shadow: 3px 3px 15px 4px rgba(0, 0, 0, 0.1);
+  min-height: 300px;
+  min-width: 300px;
+  margin: 7rem auto 0;
+  border-radius: 10px;
+}
+
+.center {
+}

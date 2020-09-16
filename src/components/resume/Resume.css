@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 5rem 3rem;
+}
+
+hr {
+  width: 80%;
+  margin: 2rem auto;
+  background-color: silver;
+  color: silver;
+}
+
+.resume {
+  background-color: #e8e8e8;
+  max-width: 1000px;
+  width: 100%;
+  min-height: 100vh;
+  border-top: 7px solid gray;
+  text-align: start;
+  padding: 1rem 3rem;
+  border-bottom: 4px solid gray;
+}
+
+.resume .header {
+  display: flex;
+}
+
+.resume .header .header-info {
+  flex: 0.6;
+  text-align: inherit;
+  margin-left: 6rem;
+  margin-top: 2rem;
+}
+
+.resume .header .header-info h4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.resume .header .header-info h6 {
+  font-size: 1.4rem;
+  color: #006a71;
+}
+
+.resume .header .links {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.3rem;
+}
+
+.resume .header .links i {
+  color: #006a71;
+  margin-right: 0.6rem;
+}
+
+.resume .header .links .link {
+  display: flex;
+  align-items: center;
+}
+.resume .header .links .link .link-text {
+  text-decoration: none;
+  color: #333;
+  margin-top: 0.1rem;
+}
+
+.profile {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  font-style: italic;
+}
+
+.profile .left {
+  flex: 0.3;
+}
+
+.profile .left p {
+  font-size: 1.2rem;
+  color: #006a71;
+  font-weight: 600;
+}
+
+.profile .right {
+  flex: 0.7;
+  font-size: 1.3rem;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.profile .right.cols {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.profile .skill {
+  flex: 0.3;
+  margin-right: 0.4rem;
+}
+
+.profile .skill h5 {
+  font-size: 0.9rem;
+}
+
+.profile .skill p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  min-width: 130px;
+}
+
+.profile .right {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile .right .head {
+  /* display: flex; */
+  justify-content: space-between;
+  flex: 1;
+  width: 100%;
+}
+
+.profile .head h5 {
+  font-size: 1.3rem;
+}
+
+.profile .head p {
+  align-content: flex-end;
+}
+
+.profile .right .position {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.profile .right .description {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile .edu p.qual {
+  margin-bottom: 1rem;
+}

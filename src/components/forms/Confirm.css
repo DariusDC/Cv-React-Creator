@@ -1,0 +1,16 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem;
+  text-align: end;
+}
+
+section h3 {
+  margin-left: 2rem;
+}
+
+.details {
+  flex: 0.7;
+  margin-right: 2rem;
+}
